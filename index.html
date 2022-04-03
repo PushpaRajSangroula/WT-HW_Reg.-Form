@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="reg_form">
+		<h1 class="title"><u>Student Registration Form</u></h1>
+		<form>
+			<span class="information">Name</span><span class="required">*</span> : <input type="text" name="student's_name" required><br><br>
+			<span class="information">Parents Name</span><span class="required">*</span> : <input type="text" name="parent's_Name" required><br><br>
+			<span class="information">Mobile</span><span class="required">*</span> : <input type="text" name="mobile_Number" required><br><br>
+			<span class="information">Email</span><span class="required">*</span> : <input type="E-mail" name="email" required><br><br>
+			<span class="information">Gender</span><span class="required">*</span> : <input type="radio" name="gender" value="male" required> Male
+					<input type="radio" name="gender" value="female" required> Female<br><br>
+			<span class="information">Photo</span><span class="required" >*</span> : <input type="file" name="photo" required><br><br>
+			<span class="information">Program</span><span class="required" >*</span> : <select required>
+                <option>----Select Course-----</option>
+				<option>BE-Software</option>
+				<option>BE-IT</option>
+				<option>BE-CE</option>
+                <option>BE-Elx</option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>BBS</option>
+			</select><br><br>
+			<div class="address">
+				<h2 class="addressInformation">Address Details : </h2>
+			<span class="information">Province</span><span class="required">*</span> : <select required>
+                <option>----Select Your Province----</option>
+				<option>Province 1</option>
+                <option>Province 2</option>
+                <option>Gandaki Province</option>
+                <option>Madesh Province</option>
+                <option>Bagmati Province</option>
+				<option>Karnali Province</option>
+				<option>SudurpPaschhim Province</option>
+			</select><br><br>
+			<span class="information">District</span><span class="required">*</span> : <select required>
+                <option>---Selcect Your District----</option>
+                <option>Kanthmandu</option>
+				<option>Bhaktapur</option>
+				<option>Lalitpur</option>
+				<option>Jhapa</option>
+                <option>Morang</option>
+                <option>Sunsari</option>
+                <option>Ilam</option>
+                <option>Kailai</option>
+			</select><br><br>
+			<span class="information">Description</span><span class="required">*</span> : <textarea required></textarea>
+			<br><br>
+			<input type="checkbox" name="terms_and_conditions" required> I accept the terms & condition
+			<br><br>
+			<div class="buttons">
+				<input type="submit" name="submit" class="submit">
+			<input type="reset" name="reset" class="reset">
+			</div>
+			
+			</div>
+			
+		</form>
+	</div>
+</body>
+</html>

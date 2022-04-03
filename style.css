@@ -1,0 +1,60 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(images/sunset.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.reg_form{
+	display: inline-block;
+	background-image: url(images/bgi.jpg);
+	margin-top: 25px;
+	margin-left: 35%;
+	margin-right: 10%;
+	padding: 30px;
+	border-radius: 25px;
+}
+.title{
+	text-transform: capitalize;
+}
+.required{
+	color: red;
+}
+.information{
+	font-size: 18px;
+	font-weight: bold;
+}
+.addressInformation{
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.submit{
+	background-color: #00ff2a;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	margin-right: 10px;
+
+}
+.reset{
+	background-color: #6c05cc;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+	margin-left: 10px;
+
+}
+.buttons{
+	text-align: center;
+}
